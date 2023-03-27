@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Error 404</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link href="static/css/css.css" rel="stylesheet">
+<link rel="stylesheet" href="static/css/normalize.min.css">
+<link rel="stylesheet" href="static/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/css/font-awesome.min.css">
+<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="static/css/reveal.css">
+
+</head>
+<body>
+  
+<header>
+<span class="btn-menu"><img src="static/picture/menu.svg"></span>
+</header>
+
+<section class="huge-section fluid-container">
+<div class="row">
+  <div class="huge-side left-side col-xs-12 col-sm-6">
+	<div class="row">
+	  <div class="huge-content col-xs-8 col-xs-offset-2">
+		<a href="javascript:;">
+		  <img class="logo" src="static/picture/logo.png">
+		</a>
+		<h1>404</h1>
+		<h2>The page you are looking for doesn't exist.</h2>
+		<a class="btn" href="javascript:;">
+		  Go back to our Homepage
+		</a>
+		<footer>
+		  <!--Social Icons-->
+		  <ul class="social-icons">
+			<li>
+			  <a href="javascript:;" class="social-icon">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+			  </a>
+			</li>
+			<li>
+			  <a href="javascript:;" class="social-icon">
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+			  </a>
+			</li>
+			<li>
+			  <a href="javascript:;" class="social-icon">
+				<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+			  </a>
+			</li>
+			<li>
+			  <a href="javascript:;" class="social-icon">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			  </a>
+			</li>
+		  </ul>
+		  <!--/Social Icons-->
+		</footer>
+	  </div>
+	</div>
+  </div>
+  <div class="huge-side right-side col-xs-12 col-sm-6">
+	<div class="huge-background-img">
+	  <div id="container">
+		<div id="game"></div>
+		<div id="score">0</div>
+		<div id="instructions">Click (or press the spacebar) to place the block</div>
+		<div class="game-over">
+		  <h2>Game Over</h2>
+		  <p>You did great, you're the best.</p>
+		  <p>Click or spacebar to start again</p>
+		</div>
+		<div class="game-ready">
+		  <div id="start-button">Start</div>
+		  <div></div>
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+</section>
+
+<nav class="menu col-xs-12 col-sm-6 block-revealer">
+<div class="revealer-content">
+  <span class="btn-close"><img src="static/picture/close.svg"></span>
+  <ul class="menu-inner">
+	<li class="menu-item"><a class="menu-link" href="javascript:;">Home</a></li>
+	<li class="menu-item"><a class="menu-link" href="javascript:;">Work</a></li>
+	<li class="menu-item"><a class="menu-link" href="javascript:;">About</a></li>
+	<li class="menu-item"><a class="menu-link" href="javascript:;">Contact</a></li>
+  </ul>
+</div>
+<div class="revealer-animation"></div>
+</nav>
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/anime.min.js"></script>
+<script src="static/js/reveal.js"></script>
+<script src='static/js/three.min.js'></script>
+<script src='static/js/TweenMax.min.js'></script>
+<script src="static/js/tower-block.js"></script>
+</body>
+</html>
